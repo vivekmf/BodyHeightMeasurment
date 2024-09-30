@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		92B50F632CA27F9A00DDF5C3 /* HeightMeasure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeightMeasure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B50F632CA27F9A00DDF5C3 /* MeasureFirst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeasureFirst.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		92B50F652CA27F9A00DDF5C3 /* HeightMeasure */ = {
+		92B50F652CA27F9A00DDF5C3 /* MeasureFirst */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = HeightMeasure;
+			path = MeasureFirst;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		92B50F5A2CA27F9A00DDF5C3 = {
 			isa = PBXGroup;
 			children = (
-				92B50F652CA27F9A00DDF5C3 /* HeightMeasure */,
+				92B50F652CA27F9A00DDF5C3 /* MeasureFirst */,
 				92B50F642CA27F9A00DDF5C3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +40,7 @@
 		92B50F642CA27F9A00DDF5C3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				92B50F632CA27F9A00DDF5C3 /* HeightMeasure.app */,
+				92B50F632CA27F9A00DDF5C3 /* MeasureFirst.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		92B50F622CA27F9A00DDF5C3 /* HeightMeasure */ = {
+		92B50F622CA27F9A00DDF5C3 /* MeasureFirst */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 92B50F712CA27F9C00DDF5C3 /* Build configuration list for PBXNativeTarget "HeightMeasure" */;
+			buildConfigurationList = 92B50F712CA27F9C00DDF5C3 /* Build configuration list for PBXNativeTarget "MeasureFirst" */;
 			buildPhases = (
 				92B50F5F2CA27F9A00DDF5C3 /* Sources */,
 				92B50F602CA27F9A00DDF5C3 /* Frameworks */,
@@ -61,13 +61,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				92B50F652CA27F9A00DDF5C3 /* HeightMeasure */,
+				92B50F652CA27F9A00DDF5C3 /* MeasureFirst */,
 			);
-			name = HeightMeasure;
+			name = MeasureFirst;
 			packageProductDependencies = (
 			);
 			productName = HeightMeasure;
-			productReference = 92B50F632CA27F9A00DDF5C3 /* HeightMeasure.app */;
+			productReference = 92B50F632CA27F9A00DDF5C3 /* MeasureFirst.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 92B50F5E2CA27F9A00DDF5C3 /* Build configuration list for PBXProject "HeightMeasure" */;
+			buildConfigurationList = 92B50F5E2CA27F9A00DDF5C3 /* Build configuration list for PBXProject "MeasureFirst" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				92B50F622CA27F9A00DDF5C3 /* HeightMeasure */,
+				92B50F622CA27F9A00DDF5C3 /* MeasureFirst */,
 			);
 		};
 /* End PBXProject section */
@@ -249,9 +249,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HeightMeasure/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MeasureFirst/Preview Content\"";
 				DEVELOPMENT_TEAM = MB3U6KTHY8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -268,8 +269,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.moilefirst.HeightMeasure;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moilefirst.MeasureFirst;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -281,9 +283,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HeightMeasure/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MeasureFirst/Preview Content\"";
 				DEVELOPMENT_TEAM = MB3U6KTHY8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -300,8 +303,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.moilefirst.HeightMeasure;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moilefirst.MeasureFirst;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -311,7 +315,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		92B50F5E2CA27F9A00DDF5C3 /* Build configuration list for PBXProject "HeightMeasure" */ = {
+		92B50F5E2CA27F9A00DDF5C3 /* Build configuration list for PBXProject "MeasureFirst" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				92B50F6F2CA27F9C00DDF5C3 /* Debug */,
@@ -320,7 +324,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		92B50F712CA27F9C00DDF5C3 /* Build configuration list for PBXNativeTarget "HeightMeasure" */ = {
+		92B50F712CA27F9C00DDF5C3 /* Build configuration list for PBXNativeTarget "MeasureFirst" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				92B50F722CA27F9C00DDF5C3 /* Debug */,

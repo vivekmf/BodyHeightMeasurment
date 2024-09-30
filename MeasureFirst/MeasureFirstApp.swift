@@ -1,5 +1,5 @@
 //
-//  HeightMeasureApp.swift
+//  MeasureFirstApp.swift
 //  HeightMeasure
 //
 //  Created by Vivek Singh on 9/24/24.
@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct HeightMeasurementApp: App {
+struct MeasureFirstApp: App {
     var body: some Scene {
         WindowGroup {
-            AppView()
+            SpeedDetectionView()
         }
     }
 }
