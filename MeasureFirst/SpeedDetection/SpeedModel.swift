@@ -12,18 +12,17 @@ class SpeedModel {
     var previousPosition: CGPoint?
     var previousTimestamp: CFTimeInterval?
     
-    var objectDistance: Double = 5.0 // Distance in meters to the object (adjust based on your use case)
-    var fieldOfView: Double = 60.0 // Field of view in degrees (adjust based on your camera’s specs)
+    var objectDistance: Double = 5.0
+    var fieldOfView: Double = 60.0
     
-    // Threshold to ignore very small movements
-    let speedThreshold: Double = 0.1 // km/h, adjust based on acceptable speed noise level
-
+    let speedThreshold: Double = 0.1 // km/h
+    
     func pixelToMeters(pixelDisplacement: CGFloat, frameWidth: CGFloat) -> Double {
         let fovInRadians = fieldOfView * .pi / 180.0
         let metersPerPixel = 2 * objectDistance * tan(fovInRadians / 2) / Double(frameWidth)
         return metersPerPixel * Double(pixelDisplacement)
     }
-
+    
     func calculateSpeed(currentPosition: CGPoint, currentTime: CFTimeInterval, frameWidth: CGFloat) -> (kmh: Double, mph: Double)? {
         guard let previousPosition = previousPosition, let previousTimestamp = previousTimestamp else {
             return nil
@@ -42,7 +41,6 @@ class SpeedModel {
         let speedInKmh = speedInMetersPerSecond * 3.6
         let speedInMph = speedInMetersPerSecond * 2.237
         
-        // Ignore small speeds below the threshold
         if speedInKmh < speedThreshold {
             return (kmh: 0, mph: 0)
         }

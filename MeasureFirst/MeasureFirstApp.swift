@@ -11,7 +11,7 @@ import SwiftUI
 struct MeasureFirstApp: App {
     var body: some Scene {
         WindowGroup {
-            SpeedDetectionView()
+            HomeView()
         }
     }
 }
